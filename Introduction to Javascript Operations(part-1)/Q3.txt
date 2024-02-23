@@ -1,0 +1,45 @@
+1) Unary Operators:
+Unary operators are operators that operate on a single operand, which can be either to the left or to the right of the operator. These operators perform operations such as negation, incrementing/decrementing, type conversion, and logical negation.
+
+Examples of unary operators in JavaScript include:
+
+Negation (-): Converts the operand to its negated value.
+let x = 10;
+let y = -x; // y is assigned the value -10
+
+Increment (++) and Decrement (--): Increase or decrease the value of the operand by 1.
+let count = 5;
+count++; // Increment count by 1 (now count is 6)
+count--; // Decrement count by 1 (now count is 5 again)
+
+Typeof (typeof): Returns a string indicating the data type of the operand.
+let message = "Hello";
+typeof message; // Returns "string"
+
+Logical Negation (!): Inverts the Boolean value of the operand.
+let isValid = true;
+let isInvalid = !isValid; // isInvalid is assigned the value false
+
+
+2) Binary Operators:
+Binary operators are operators that require two operands—one to the left and one to the right of the operator. These operators perform operations such as arithmetic computations, logical comparisons, assignments, and more.
+
+Examples of binary operators in JavaScript include:
+
+Addition (+): Adds two operands together.
+let sum = 5 + 3; // sum is assigned the value 8
+
+Subtraction (-): Subtracts the right operand from the left operand.
+let difference = 10 - 3; // difference is assigned the value 7
+
+Multiplication (*): Multiplies two operands.
+let product = 4 * 5; // product is assigned the value 20
+
+Division (/): Divides the left operand by the right operand.
+let quotient = 20 / 4; // quotient is assigned the value 5
+
+Assignment (=): Assigns the value of the right operand to the left operand.
+let x = 10; // Assigns the value 10 to the variable x
+
+Equality Comparison (==, ===): Compares two operands for equality.
+let isEqual = (10 == 10); // isEqual is assigned the value true
