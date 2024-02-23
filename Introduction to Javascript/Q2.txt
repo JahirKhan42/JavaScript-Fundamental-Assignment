@@ -1,0 +1,36 @@
+The key difference between JavaScript and HTML  in their respective roles and functionalities within web development:
+
+A)HTML (HyperText Markup Language):
+
+-HTML is a markup language used for creating the structure and content of web pages.
+-It defines the elements and layout of a web page using tags such as <html>, <head>, <body>, <p>,
+<div>, <span>, etc.
+-HTML is primarily responsible for displaying static content on a web page, such as text, images,
+links, and multimedia.
+-It provides the foundation upon which web content is built and styled.
+
+B)JavaScript:
+
+-JavaScript is a programming language used for adding interactivity, dynamic behavior, and functionality to web pages.
+-It is executed by web browsers and allows for event handling, DOM manipulation, asynchronous communication, and more.
+-JavaScript can be embedded directly into HTML documents or included as external script files.
+-It enables developers to create interactive features such as form validation, animations, sliders,    dynamic content updates, and AJAX requests.
+
+
+Here are an example that demonstrate the use of both javascript and HTML in a typical web development scenario : 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>interactive web page</title>
+    <script>
+        function greet() {
+            var name = prompt("What's your name?");
+            alert("Hello, " + name + "!");
+        }
+    </script>
+</head>
+<body>
+    <button onclick="greet()">Say Hello</button>
+</body>
+</html>

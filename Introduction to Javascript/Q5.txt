@@ -1,0 +1,36 @@
+Importance of Comments:
+
+1)Code Documentation: Comments serve as a form of documentation, helping developers understand the logic, intentions, and usage of different parts of the codebase.
+
+2)Collaboration: When working on a project with multiple developers, comments can facilitate collaboration by providing insights into the code for others who might not be familiar with it.
+
+3)Debugging and Maintenance: Comments can aid in debugging and maintaining code by offering hints or explanations that make it easier to identify and fix issues.
+
+4)Code Readability: Well-commented code is more readable, making it easier for anyone, including yourself, to revisit the code later and understand its purpose and functionality.
+
+5)Temporary Disabling: Comments can be used to temporarily disable lines or blocks of code during development without completely removing them. This can be useful for testing alternative implementations.
+
+
+Single-Line Comments:
+Single-line comments are used for short annotations or explanations on a single line.
+
+// This is a single-line comment
+let x = 10; // Initializing a variable with the value 10
+
+Multi-Line Comments:
+Multi-line comments are useful for adding more extensive explanations, comments over multiple lines, or temporarily disabling code.
+
+/*
+  This is a multi-line comment.
+  It spans multiple lines and can be used for detailed explanations.
+*/
+
+let a = 5;
+let b = 7;
+
+/*
+  The following code calculates the sum of variables a and b.
+  This is a simple example for demonstration purposes.
+*/
+let sum = a + b;
+console.log(sum);

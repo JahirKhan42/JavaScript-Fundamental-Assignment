@@ -1,0 +1,21 @@
+Declaring variables in JavaScript serves the purpose of storing and manipulating data within a program. Variables allow developers to assign values to identifiers (variable names) and reference those values throughout the code. This enables dynamic behavior and facilitates data manipulation, making JavaScript a flexible and powerful programming language.
+
+The let keyword is one of the ways to declare variables in JavaScript. It was introduced in ECMAScript 6 (ES6) and is preferred over the var keyword in modern JavaScript development due to its block-level scoping behavior, which helps prevent certain types of bugs and improves code clarity.
+
+Here's how you declare variables using the let keyword:
+
+let variableName;
+
+You can also assign an initial value to the variable at the time of declaration:
+let variableName = value;
+
+let message;
+message = "Hello, World!";
+
+
+You can declare multiple variables in a single let statement, separating them with commas:
+let variable1, variable2, variable3;
+
+
+You can also declare and initialize multiple variables in a single let statement:
+let x = 10, y = 20, z = 30;
