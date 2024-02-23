@@ -1,0 +1,51 @@
+In JavaScript, operators can be categorized based on their functionality into several groups:
+
+Arithmetic Operators: These operators are used to perform mathematical calculations on numeric operands.
+Examples:
+let a = 10;
+let b = 5;
+let sum = a + b;  // Addition
+let difference = a - b;  // Subtraction
+let product = a * b;  // Multiplication
+let quotient = a / b;  // Division
+let remainder = a % b;  // Modulus
+let exponentiation = a ** b;  // Exponentiation
+
+
+Assignment Operators: These operators are used to assign values to variables.
+Examples:
+let x = 10;  // Simple assignment
+x += 5;  // Addition assignment (x = x + 5)
+x -= 3;  // Subtraction assignment (x = x - 3)
+x *= 2;  // Multiplication assignment (x = x * 2)
+x /= 4;  // Division assignment (x = x / 4)
+
+Comparison Operators: These operators are used to compare values and return a boolean result.
+Examples:
+let a = 10;
+let b = 5;
+console.log(a > b);  // Greater than
+console.log(a < b);  // Less than
+console.log(a >= b);  // Greater than or equal to
+console.log(a <= b);  // Less than or equal to
+console.log(a === b);  // Equal to (strict equality)
+console.log(a !== b);  // Not equal to (strict inequality)
+
+Logical Operators: These operators are used to combine or manipulate boolean values.
+Examples:
+let raining = true;
+let windy = false;
+console.log(raining && windy);  // Logical AND
+console.log(raining || windy);  // Logical OR
+console.log(!raining);  // Logical NOT
+
+Bitwise Operators: These operators perform bitwise operations on integer operands.
+Examples:
+let a = 5;  // 101 in binary
+let b = 3;  // 011 in binary
+console.log(a & b);  // Bitwise AND 
+console.log(a | b);  // Bitwise OR 
+console.log(a ^ b);  // Bitwise XOR 
+console.log(~a);  // Bitwise NOT 
+console.log(a << 1);  // Bitwise left shift 
+console.log(a >> 1);  // Bitwise right shift 
