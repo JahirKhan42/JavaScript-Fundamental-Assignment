@@ -1,0 +1,15 @@
+1) Precedence:
+Operator precedence determines the order in which operators are evaluated in an expression. Operators with higher precedence are evaluated first, followed by those with lower precedence. For example, multiplication has a higher precedence than addition, so it is evaluated first.
+
+Example of precedence in JavaScript:
+let result = 2 + 3 * 4; // Multiplication has higher precedence, so it's evaluated first: 2 + (3 * 4) = 14
+console.log(result); // Output: 14
+
+2) Associativity:
+Associativity determines the order in which operators of the same precedence are evaluated when they appear in sequence. Some operators associate left-to-right (left-associative), meaning they are evaluated from left to right, while others associate right-to-left (right-associative), meaning they are evaluated from right to left.
+
+Example of associativity in JavaScript:
+let result = 10 - 5 - 2; // Subtraction is left-associative: (10 - 5) - 2 = 3
+console.log(result); // Output: 3
+
+Understanding operator precedence and associativity is important because it ensures that expressions are evaluated correctly according to the intended logic. Incorrect understanding or assumptions about precedence and associativity can lead to errors or unexpected behavior in code. By understanding these concepts, developers can write more reliable and predictable JavaScript code.
